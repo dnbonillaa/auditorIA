@@ -3,9 +3,9 @@ Este repositorio contiene el Código utilizado para el desarrollo del prototipo 
 
 Se organiza en 4 cuadernos: 
 
-* Código para preprocesamiento de registros clínicos electrónicos
+* Código para preprocesamiento de registros clínicos electrónicos [link text](/)
 
-* Código para ejecutar prototipo con LLM alojado en GPU
+* [Código para ejecutar prototipo con LLM alojado en GPU](PROTOTIPO_FINAL_PROVEEDOR.ipynb)
 
 * Código para ejecutar prototipo con LLM alojado en proveedor
 
