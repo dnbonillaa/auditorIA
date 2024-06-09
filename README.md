@@ -3,13 +3,16 @@ Este repositorio contiene el Código utilizado para el desarrollo del prototipo 
 
 Se organiza en 4 cuadernos: 
 
-* Código para preprocesamiento de registros clínicos electrónicos [link text](/)
+* [Cuaderno donde se preprocesaron, anonimizaron y organizaron los registros clínicos electrónicos](PREPROCESAR_EHR.ipynb): Este muestra los pasos para convertir el archivo con los datos clínicos obtenido de la institución a un archivo que contiene ID aleatorios y datos clínicos (edad, anamnesis, formulación) organizado en dos columnas para ser usado posteriormente en el modelo.  
 
-* [Código para ejecutar prototipo con LLM alojado en GPU](PROTOTIPO_FINAL_PROVEEDOR.ipynb)
+* [Cuaderno para ejecutar prototipo con LLM alojado en GPU](PROTOTIPO_LOCAL.ipynb): Contiene las librerías, funciones y organización del código para ejecutar un LLM en GPU local de Google Colab con interfaz gráfica, se debe tener en cuenta que para nuevas pruebas, se deben ajustar las librerías a versiones estáticas puesto que actualizaciones recientes de pandas y LangChain pueden comprometer su ejecución. 
 
-* Código para ejecutar prototipo con LLM alojado en proveedor
+* [Cuaderno para ejecutar prototipo con LLM alojado en proveedor](PROTOTIPO_FINAL_PROVEEDOR.ipynb): Contiene una versión que utiliza un proveedor en la nube de LLM, se debe ajustar las Keys y el Point de la librería OPENAI como variables de entorno para que funcione. 
 
-* [Código para análisis descriptivo de registros clínicos electrónicos](ANALISIS_DESCRIPTIVO.ipynb)
+* [Cuaderno para análisis descriptivo de registros clínicos electrónicos](ANALISIS_DESCRIPTIVO.ipynb): Contiene el código utilizado para hacer un análisis descriptivo de los registros clínicos obtenidos en el primer cuaderno. 
 
 
-Es de resaltar que los cuadernos se encuentran organizados internamente conservando la estructura que permite la ejecución funcional del prototipo, no el flujo de trabajo representado de forma académica en el documento original.  
+Es de resaltar que los cuadernos se encuentran organizados internamente conservando la estructura que permitió la ejecución funcional del prototipo en las pruebas reportadas, no necesariamente reflejan el flujo de trabajo representado de forma académica en el documento original.
+
+Los autores de las librerías utilizadas fueron referenciados en el documento original.
+
