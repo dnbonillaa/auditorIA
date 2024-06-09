@@ -10,3 +10,6 @@ Se organiza en 4 cuadernos:
 * Código para ejecutar prototipo con LLM alojado en proveedor
 
 * Código para análisis descriptivo de registros clínicos electrónicos  
+
+
+Es de resaltar que los cuadernos se encuentran organizados internamente conservando la estructura que permite la ejecución funcional del prototipo, no el flujo de trabajo representado de forma académica en el documento original.  
